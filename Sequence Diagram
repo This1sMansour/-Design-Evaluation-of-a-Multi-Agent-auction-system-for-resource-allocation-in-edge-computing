@@ -32,3 +32,4 @@ end
 note over Auctioneer: 10. Market closes,\n   clear any remaining unmatched bids/offers
 
 DeviceAgent -> CentralisedCloudSystem: 11. Pay Penalty (Desired: X lots - Acquired: Y lots)\n   Obtain Remaining Lots
+
