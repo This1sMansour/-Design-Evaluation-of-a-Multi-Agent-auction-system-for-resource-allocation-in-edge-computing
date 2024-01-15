@@ -1,0 +1,12 @@
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\obj\Debug\CW.csproj.CoreCompileInputs.cache
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\bin\Debug\CW.exe.config
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\bin\Debug\CW.exe
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\bin\Debug\CW.pdb
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\bin\Debug\ActressMas.dll
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\bin\Debug\ActressMas.pdb
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\bin\Debug\ActressMas.xml
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\bin\Debug\ActressMas.dll.config
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\obj\Debug\CW.csproj.CopyComplete
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\obj\Debug\CW.exe
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\obj\Debug\CW.pdb
+D:\Uni\Semister 8\Modules\Multi-Agent System\Coursework\ActressMas-master\ActressMAS v3.0\Source Code and Examples\CW\obj\Debug\CW.csprojAssemblyReference.cache
