@@ -1,0 +1,34 @@
+participant Auctioneer
+participant DeviceAgent
+participant EdgeServerAgent
+participant CentralisedCloudSystem
+
+note over Auctioneer: 1. Market opens
+
+loop (until no more bids OR offers) OR (minOffer >= 10 * maxBid)
+  DeviceAgent -> Auctioneer: 2. Submit Bids for 10Mb lots (Desired: X lots)
+  EdgeServerAgent -> Auctioneer: 2. Submit Offers for Multiple 10Mb lots
+
+  note over Auctioneer: 3. Matching algorithm processes\n   bids and offers for multiple lots
+
+  Auctioneer -> Auctioneer: 4. Determine Clearing Prices for lots
+
+  note over Auctioneer: 5. Transactions occur at clearing prices
+
+  DeviceAgent --> Auctioneer: 6. Execute Transactions for lots (Acquired: Y lots)
+  EdgeServerAgent --> Auctioneer: 6. Execute Transactions for lots
+
+  note over Auctioneer: 7. Identify buyers and sellers\n   without transactions in this round
+
+  Auctioneer -> DeviceAgent: 8. Notify Device Agents without Transactions\n   Include information on clearing prices
+  Auctioneer -> EdgeServerAgent: 8. Notify Edge Server Agents without Transactions\n   Include information on clearing prices
+
+  note over DeviceAgent, EdgeServerAgent: 9. Device agents and edge server agents adjust bids/offers based on\n   clearing prices and market conditions
+
+  note over Auctioneer: Calculate difference between\n   minimum offer and maximum bid
+
+end
+
+note over Auctioneer: 10. Market closes,\n   clear any remaining unmatched bids/offers
+
+DeviceAgent -> CentralisedCloudSystem: 11. Pay Penalty (Desired: X lots - Acquired: Y lots)\n   Obtain Remaining Lots
